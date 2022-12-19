@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dogroup.mybatis.WalletMapper">
+	<select id="selectWallet" parameterType="String" resultType="WalletDTO">
+		SELECT
+			*
+		FROM
+			wallet
+		WHERE
+			user_email = #{email}
+	</select>
+	<update id="updateUserBalance" statementType="CALLABLE" parameterType="hashmap">
+		{ CALL proc_userwallet (
+			#{flag},
+			#{email},
+			#{transactionUser},
+			#{transactionCategory},
+			#{transactionMoney}
+		)}
+	</update>
+</mapper>
