@@ -9,11 +9,17 @@
 		<setting name="jdbcTypeForNull" value="NULL"/>
 	</settings>
 	<typeAliases>
+		<typeAlias type="com.dogroup.dto.HomeworkDTO" alias="HomeworkDTO"/>
+		<typeAlias type="com.dogroup.dto.StudyDTO" alias="StudyDTO"/>
+		<typeAlias type="com.dogroup.dto.StudySubjectDTO" alias="StudySubjectDTO"/>
+		<typeAlias type="com.dogroup.dto.StudySubjectDTO" alias="StudyUserDTO"/>
+		<typeAlias type="com.dogroup.dto.SubjectDTO" alias="SubjectDTO"/>
 		<typeAlias type="com.dogroup.dto.UserDTO" alias="UserDTO"/>
 		<typeAlias type="com.dogroup.dto.WalletDTO" alias="WalletDTO"/>
 	</typeAliases>
 	<mappers>
 		<mapper resource="./mapper/UserMapper.xml"/>
 		<mapper resource="./mapper/WalletMapper.xml"/>
+		<mapper resource="./mapper/StudyMapper.xml"/>
 	</mappers>
 </configuration>

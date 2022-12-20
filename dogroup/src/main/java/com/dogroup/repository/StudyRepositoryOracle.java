@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.dogroup.dto.HomeworkDTO;
 import com.dogroup.dto.StudyDTO;
 import com.dogroup.dto.StudySubjectDTO;
@@ -22,6 +24,7 @@ import com.dogroup.exception.ModifyException;
 import com.dogroup.exception.RemoveException;
 import com.my.sql.MyConnection;
 
+@Repository("studyRepository")
 public class StudyRepositoryOracle implements StudyRepository {
 	
 	/**
