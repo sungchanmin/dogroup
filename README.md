@@ -185,7 +185,8 @@
 ## 👀 서비스 화면
 
 ![12](https://github.com/sungchanmin/sungchanmin/assets/97079985/78adc3e8-e4c0-4723-8dec-f428ec750dd6)
-<br>
+
+<br><br>
 
 ## 🏆 수상
 
