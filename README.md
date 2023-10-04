@@ -45,7 +45,7 @@
 - MyBatis를 이용하여 Oracle DB에 접근하였고, Github API 활용과 Oauth(Kakao)를 이용하였습니다. 
 
 **개발 구성도**
-![1](https://github.com/sungchanmin/sungchanmin/assets/97079985/bed27214-a3dd-4c8d-bbc7-1b892b958a07)
+<img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/bed27214-a3dd-4c8d-bbc7-1b892b958a07" width="60%">
     
 <br>
 
