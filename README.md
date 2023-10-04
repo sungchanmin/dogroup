@@ -1,10 +1,7 @@
 # 🙋🏻‍♂개모임 : 개발자를 위한 스터디 모임
 
-**Full-Stack develop**
-
-**기간** : 2022.10 ~ 2022.12
-
-**🔗Links** Github https://github.com/sungchanmin/dogroup.git
+**개발 : Full-Stack develop**  
+**기간** : 2022.10 ~ 2022.12  
 
 ---
 
