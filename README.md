@@ -75,64 +75,64 @@
     이벤트 스토밍을 통해 도메인을 도출하였습니다.  
     도메인 이벤트 도출 → 커맨드 도출 → 외부 시스템 도출 → 액터 도출  
     → 애그리거트 도출 → 컨텍스트 경계 그리기 → 정책 도출
-    
-    ![2](https://github.com/sungchanmin/sungchanmin/assets/97079985/34d97168-ed39-44ab-aa32-b143cd1ff345)
+  
+    <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/34d97168-ed39-44ab-aa32-b143cd1ff345" width="60%">
     
     ### 2. DB 테이블 설계
     
     도출된 도메인을 기반으로 ERD를 이용하여 DB 테이블을 설계했습니다.
     최종 5번의 수정을 거쳐 설계되었습니다.
     
-    ![3](https://github.com/sungchanmin/sungchanmin/assets/97079985/71be75ef-10a9-424d-a89a-c66c0ca73a3c)
+    <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/71be75ef-10a9-424d-a89a-c66c0ca73a3c" width="60%">
     
     ### 3. 화면 설계 : Figma 활용
     
     예상되는 실제 화면을 구성하며 부가적으로 필요한 기능들을 도출하였습니다.
     
-    ![4](https://github.com/sungchanmin/sungchanmin/assets/97079985/399bd1cf-2855-4556-9cdc-77116b3e030a)
+    <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/399bd1cf-2855-4556-9cdc-77116b3e030a" width="60%">
     
     ### 4. 샘플 데이터 추가
     
     서비스에 필요한 샘플 데이터를 추가하였습니다.
     
-    ![5](https://github.com/sungchanmin/sungchanmin/assets/97079985/7679cb25-e200-47b0-9fc3-6fa25da7bd09)
+    <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/7679cb25-e200-47b0-9fc3-6fa25da7bd09" width="60%">
     
     ### 5. SQL 도출
     
     MyBatis를 이용하여 mapper.xml을 작성하였습니다. ResultMap을 설계하였습니다.
     
-    ![6](https://github.com/sungchanmin/sungchanmin/assets/97079985/ff0df06c-8c83-48f1-965d-ed5a4d7cc639)
+    <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/ff0df06c-8c83-48f1-965d-ed5a4d7cc639" width="60%">
     
     도출된 필요한 쿼리문을 작성하였습니다.
     
-    ![7](https://github.com/sungchanmin/sungchanmin/assets/97079985/116917a6-de8e-40b0-aca4-04eb2e49010f)
+    <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/116917a6-de8e-40b0-aca4-04eb2e49010f" width="60%">
     
     ### 6. Repository 설계 : Interface class 기반 구현체
     
     객체에 따라 Study, User, Wallet 3개의 Interface class를 작성하고,  
     그에 맞추어 DB에 접근하는 RepositoryOracle class를 구현하였습니다.
     
-    ![8](https://github.com/sungchanmin/sungchanmin/assets/97079985/e262faf2-8b24-4775-a9b0-8a883518bfa6)
+    <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/e262faf2-8b24-4775-a9b0-8a883518bfa6" width="60%">
     
     ### 7. Service 설계 : Interface class 기반 기능 개발
     
     Interface class의 메소드를 호출하여 기능을 수행하는 Service class를 구현하였습니다.
     
-    ![9](https://github.com/sungchanmin/sungchanmin/assets/97079985/90a44885-6bf8-4a40-a9b9-196fba567498)
+    <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/90a44885-6bf8-4a40-a9b9-196fba567498" width="60%">
     
     ### 8. Controller 설계 : Rest API 개발
     
     컨테이너의 요청을 1차로 응답할 Controller를 설계하였습니다.  
     Restful한 API를 설계하려 노력했습니다.
     
-    ![10](https://github.com/sungchanmin/sungchanmin/assets/97079985/ddf29810-c6f0-4690-b191-cb2de33d2eff)
+    <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/ddf29810-c6f0-4690-b191-cb2de33d2eff" width="60%">
     
     ### 9. TEST : Junit5, PostMan
     
     Service class의 메서드 단위로 예상 결과값과 비교하여 테스트를 진행하였고,  
     PostMan을 이용하여 요청에 대한 응답을 체크하였습니다.
     
-    ![11](https://github.com/sungchanmin/sungchanmin/assets/97079985/4e7bc0d3-b735-4d9f-a054-9b4d82614db1)
+    <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/4e7bc0d3-b735-4d9f-a054-9b4d82614db1" width="60%">
     
     ### 10. 화면 구현 : JS, HTML, CSS
     
