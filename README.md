@@ -171,10 +171,10 @@
 
 - **소스코드 관리** : GitHub와 SourceTree 툴을 이용하여 소스코드를 관리하였습니다.
 - **개발 컨벤션 설정** : 코드 작성법과 팀원들간의 룰을 정했습니다.
-[가이드라인(규약)](https://www.notion.so/73e0265b31f04df09110774b2ca7212b?pvs=21) 관리 페이지
+[가이드라인(규약)](https://user26.notion.site/73e0265b31f04df09110774b2ca7212b?pvs=4)
 - **개발 진행사항 체크** : 노션을 이용하여 현재 진행도와 구현 내역을 관리하였습니다.
-    [](https://www.notion.so/8cd47e6da1d8463899e2a7643e31e9d9?pvs=21) 관리 페이지
-    [](https://www.notion.so/fd29f2d7f0464876ac8df71583ed817b?pvs=21) 관리 페이지
+    [Service,Repo설계](https://user26.notion.site/8cd47e6da1d8463899e2a7643e31e9d9?v=5bde9fd603234930bded09c8bb073b36&pvs=4)
+    [Controller설계](https://user26.notion.site/fd29f2d7f0464876ac8df71583ed817b?v=9d95ff788b69459b97b47e5f000f20e3&pvs=4)
 <br>
 
 ## 💡 성장하고 배운점
