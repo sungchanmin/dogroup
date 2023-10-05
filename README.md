@@ -13,7 +13,7 @@
 
 ### 목차
 - [🙋🏻‍♂개모임 : 개발자를 위한 스터디 모임](#--------------------------)
-  * [📄 서비스 소개](#---------)
+  * [📄 서비스 소개](#📄-서비스-소개)
   * [🛠 기술 스택](#--------)
   * [🖥 개발 내용](#--------)
     + [Spring MVC 구조 설계](#spring-mvc------)
@@ -69,7 +69,7 @@
 - Tomcat을 이용하여 백서버를 구성하고, Front와 Http 프로토콜을 기반으로 통신하였습니다.
 - MyBatis를 이용하여 Oracle DB에 접근하였고, Github API 활용과 Oauth(Kakao)를 이용하였습니다. 
 
-**개발 구성도**  
+### 아키텍처  
 <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/bed27214-a3dd-4c8d-bbc7-1b892b958a07" width="80%">
     
 <br>
