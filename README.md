@@ -72,7 +72,7 @@
 ### 아키텍처  
 <img src="https://github.com/sungchanmin/sungchanmin/assets/97079985/bed27214-a3dd-4c8d-bbc7-1b892b958a07" width="80%">
     
-<br>
+<br><br>
 
 ## 🔨 담당 기능
 
